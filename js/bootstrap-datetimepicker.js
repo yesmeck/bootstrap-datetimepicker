@@ -1,4 +1,4 @@
-﻿/* =========================================================
+/* =========================================================
  * bootstrap-datetimepicker.js
  * =========================================================
  * Copyright 2012 Stefan Petre
@@ -529,7 +529,7 @@
       left = left - containerOffset.left;
 
             if( !elementOrParentIsFixed(this.element) ){
-          top = top + document.body.scrollTop;
+              //top = top + document.body.scrollTop;
             }
 
       this.picker.css({
